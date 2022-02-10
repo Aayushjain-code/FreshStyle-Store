@@ -1,0 +1,30 @@
+.heading {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 4rem;
+	color: var(--black);
+	padding: 1rem;
+}
+
+.heading span {
+	text-transform: uppercase;
+	color: var(--orange);
+}
+
+.btn {
+	display: inline-block;
+	margin-top: 1rem;
+	border-radius: .5rem;
+	border: .2rem solid var(--black);
+	font-weight: bolder;
+	font-size: 1.7rem;
+	color: var(--black);
+	cursor: pointer;
+	background: #fff;
+	padding: .8rem 3rem;
+}
+
+.btn:hover {
+	background: var(--orange);
+	color: #fff;
+}
