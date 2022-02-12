@@ -1,11 +1,11 @@
-.Category .box-container {
+.category .box-container {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 	gap: 1.5rem;
 
 }
 
-.Category .box-container .box {
+.category .box-container .box {
 	background: var(--bg-color-1);
 	border-radius: .5rem;
 	box-shadow: var(--box-shadow);
@@ -13,7 +13,7 @@
 	position: relative;
 }
 
-.Category .box-container .box .image {
+.category .box-container .box .image {
 	height: 20rem;
 	width: 100%;
 	overflow: hidden;
@@ -21,16 +21,16 @@
 	background: var(--bg-color-2);
 }
 
-.Category .box-container .box .image img {
+.category .box-container .box .image img {
 	height: 100%;
 	width: 100%;
 }
 
-.Category .box-container .box:hover .image img {
+.category .box-container .box:hover .image img {
 	transform: scale(1.2);
 }
 
-.Category .box-container .box .content {
+.category .box-container .box .content {
 
 	  position: absolute;
 	  top: 50%;
@@ -38,9 +38,9 @@
 	  transform: translate(-50%, -50%);
 }
 
-.Category .box-container .box .content h3 {
+.category .box-container .box .content h3 {
 	background-color: rgba(236, 236, 236, 0.705);
-	padding: 0.5rem 0.5rem;
+	padding: 0.5rem;
 	border-radius: .5rem;
 	font-size: 2rem;
 	color: var(--text-color-1);

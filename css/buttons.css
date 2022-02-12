@@ -3,31 +3,25 @@
 	justify-content: space-around;
 }
 
-.btn {
+.btn, .btn-secondary {
 	margin-top: 1rem;
 	display: inline-block;
 	padding: .8rem 2rem;
 	font-size: 1.4rem;
 	color: #fff;
-	background: var(--primary);
 	border-radius: .5rem;
 	cursor: pointer;
 }
-
+.btn{
+	background: var(--primary);
+}
 
 .btn:hover {
 	background: var(--primary-dark);
 }
 
 .btn-secondary {
-	margin-top: 1rem;
-	display: inline-block;
-	padding: .8rem 2rem;
-	font-size: 1.4rem;
-	color: #fff;
 	background: var(--secondary);
-	border-radius: .5rem;
-	cursor: pointer;
 }
 .btn-secondary:hover {
 	background: var(--secondary-dark);
