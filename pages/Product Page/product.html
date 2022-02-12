@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FreshStore</title>
+
+	<!-- font awesome cdn link  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+	<!-- custom css file cdn link  -->
+	<link rel="stylesheet" href="/style.css">
+	<link rel="stylesheet" href="./products.css">
+
+</head>
+
+<body>
+
+	<!-- header section starts  -->
+
+	<header class="header">
+
+		<a href="#" class="logo"> <i class="fab fa-canadian-maple-leaf"></i> FreshStore </a>
+
+		<form action="" class="search-form">
+			<input type="search" name="" placeholder="Search" id="searchBox">
+			<label for="searchBox" class="fas fa-search"></label>
+		</form>
+
+		<div class="icons">
+			<div class="fas fa-search" id="search-btn"></div>
+			<div class="fas fa-moon" id="theme-btn"></div>
+			<div class="fas fa-shopping-cart"></div>
+			<div class="fas fa-bars" id="menu-btn"></div>
+		</div>
+
+		<nav class="navbar">
+			<a href="/index.html">Home</a>
+			<a href="#products" class="active-page">Products</a>
+			<a href="#cart">Cart</a>
+			<a href="#wishlist">Wishlist</a>
+			<a href="#login">Login</a>
+			<a href="#signin">Signin</a>
+			<a href="#profile">Profile</a>
+		</nav>
+
+	</header>
+
+	<!-- header section ends -->
+
+
+	<div class="main-container">
+		<div class="filter-container">
+			<h1 class="filter-heading">filter</h1>
+			<h1 class="filter-sub-heading">Price</h1>
+			<div class="filter-items">
+				<label style="font-size: 1.5rem;" >Choose a range:</label>
+				<select >
+					<option value="volvo">Veggies</option>
+					<option value="saab">fruits</option>
+					<option value="opel">Northern</option>
+					<option value="audi">Eastern</option>
+				</select>
+
+			</div>
+			<h1 class="filter-sub-heading">category</h1>
+			<div class="filter-items">
+				<label class="container-checkbox">One
+					<input type="checkbox" checked="checked">
+					<span class="checkmark"></span>
+				</label>
+				<label class="container-checkbox">Two
+					<input type="checkbox">
+					<span class="checkmark"></span>
+				</label>
+				<label class="container-checkbox">Three
+					<input type="checkbox">
+					<span class="checkmark"></span>
+				</label>
+				<label class="container-checkbox">Four
+					<input type="checkbox">
+					<span class="checkmark"></span>
+				</label>
+
+			</div>
+			<h1 class="filter-sub-heading">Ratings</h1>
+			<div class="filter-items">
+				<input type="checkbox"  style="margin-right: 0.5rem;">
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star "></span>
+				<span class="fa fa-star "></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+			</div>
+			<div class="filter-items">
+				<input type="checkbox"  style="margin-right: 0.5rem;">
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star "></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+			</div>
+			<div class="filter-items">
+				<input type="checkbox"  style="margin-right: 0.5rem;">
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+			</div>
+			<div class="filter-items">
+				<input type="checkbox"  style="margin-right: 0.5rem;">
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+			</div>
+			<div class="filter-items">
+				<input type="checkbox"  style="margin-right: 0.5rem;">
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+			</div>
+		</div>
+		<div>
+			<!-- Cards section starts  -->
+
+			<section class="cards" id="cards">
+
+				<h1 class="heading">Products</h1>
+
+				<div class="box-container">
+
+					<div class="box">
+						<div class="image">
+							<img src="/images/product-1.png" alt="">
+							<h3> mumbai </h3>
+						</div>
+						<div class="content">
+							<h2 class="card-title">Title</h2>
+							<div class="price"> 290.99 <span>350.99</span> </div>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+							<div class="btn-container">
+								<a href="#" class="btn"> Buy!</a>
+								<a href="#" class="btn-secondary"> Wishlist!</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="box">
+						<div class="image">
+							<img src="/images/product-2.png" alt="">
+							<h3> mumbai </h3>
+						</div>
+						<div class="content">
+							<h2 class="card-title">Title</h2>
+							<div class="price"> 290.99 <span>350.99</span> </div>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+							<div class="btn-container">
+								<a href="#" class="btn"> Buy!</a>
+								<a href="#" class="btn-secondary"> Wishlist!</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="box">
+						<div class="image">
+							<img src="/images/product-4.png" alt="">
+							<h3> mumbai </h3>
+						</div>
+						<div class="content">
+							<h2 class="card-title">Title</h2>
+							<div class="price"> 290.99 <span>350.99</span> </div>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+							<div class="btn-container">
+								<a href="#" class="btn"> Buy!</a>
+								<a href="#" class="btn-secondary"> Wishlist!</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="box">
+						<div class="image">
+							<img src="/images/product-6.png" alt="">
+							<h3> mumbai </h3>
+						</div>
+						<div class="content">
+							<h2 class="card-title">Title</h2>
+							<div class="price"> 290.99 <span>350.99</span> </div>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+							<div class="btn-container">
+								<a href="#" class="btn"> Buy!</a>
+								<a href="#" class="btn-secondary"> Wishlist!</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- cards section ends -->
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<!-- footer section starts  -->
+
+	<section class="footer">
+
+		<div class="box-container">
+			<div class="box">
+				<a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+				<a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+				<a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+			</div>
+		</div>
+
+		<div class="credit"> by <span>Aayush Jain</span> | all rights reserved </div>
+
+	</section>
+
+	<!-- footer section ends -->
+
+
+	<!-- custom js file link  -->
+	<script src="/js/script.js"></script>
+
+</body>
+
+</html>
