@@ -1,8 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
-
 :root {
-	--black: #000000;
-	--orange: #ff9500;
-	--yellow: #ffd700;
+	--primary: #09ff00;
+	--primary-dark:#5a8a00;
+
+	--secondary: #ffc600;
+	--secondary-dark: #ff9100;
+
+	--text-color-1: #444;
+	--text-color-2: #666;
+	--bg-color-1: #fff;
+	--bg-color-2: #eee;
+	--box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
 }
 
+body {
+	background: var(--bg-color-2);
+}
+
+body.active {
+	--text-color-1: #fff;
+	--text-color-2: #eee;
+	--bg-color-1: #333;
+	--bg-color-2: #222;
+	--box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .4);
+}
