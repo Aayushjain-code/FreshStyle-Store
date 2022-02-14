@@ -15,6 +15,9 @@
 	margin-top: 12rem;
 	margin-bottom: 6rem;
 }
+
+
+
 .wrapper h2 {
 	position: relative;
 	font-size: 4rem;
@@ -85,10 +88,3 @@ form .text h3 a:hover {
 	text-decoration: underline;
 }
 
-
-
-.login-footer{
-		position: absolute;
-		bottom: 0;
-		width: 100%;
-}
