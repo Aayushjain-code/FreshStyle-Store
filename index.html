@@ -13,6 +13,10 @@
     <!-- custom css file cdn link  -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Freshstly css link  -->
+    <!-- <link rel="stylesheet" href="https://freshstyleui.netlify.app/components/card.css"> -->
+    <link rel="stylesheet" href="https://freshstyleui.netlify.app/styles.css">
+
 </head>
 
 <body>
@@ -31,14 +35,18 @@
         <div class="icons">
             <div class="fas fa-search" id="search-btn"></div>
             <div class="fas fa-moon" id="theme-btn"></div>
-            <div class="fas fa-shopping-cart" ></div>
+
+            <div class="m1 badge-container">
+                <div class="fas fa-shopping-cart"></div>
+                <span class="badge right-badge sm-badge">10</span>
+            </div>
             <div class="fas fa-bars" id="menu-btn"></div>
         </div>
 
         <nav class="navbar">
             <a href="#" class="active-page">Home</a>
             <a href="./pages/Product Page/product.html">Products</a>
-            <a href="/pages/Cart Page/cart.html" >Cart</a>
+            <a href="/pages/Cart Page/cart.html">Cart</a>
             <a href="/pages/Wishlist/wishlist.html">Wishlist</a>
             <a href="/pages/Signup-login/login.html">Login</a>
             <a href="/pages/Signup-login/signup.html">Signin</a>
@@ -68,42 +76,44 @@
 
     <section class="category" id="category">
 
-        <h1 class="heading"> Featured Categories </h1>
+        <div class="category">
+            <h1 class="heading"> Featured Categories </h1>
 
-        <div class="box-container">
+            <div class="box-container">
 
-            <div class="box">
-                <div class="image">
-                    <img src="images/blog-1.jpg" alt="">
+                <div class="box">
+                    <div class="image">
+                        <img src="images/blog-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>explore the world now, adventure awaits</h3>
+                        <a href="#" class="btn">read more</a>
+                    </div>
                 </div>
-                <div class="content">
-                    <h3>explore the world now, adventure awaits</h3>
-                    <a href="#" class="btn">read more</a>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/blog-2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>explore the world now, adventure awaits</h3>
+                        <a href="#" class="btn">read more</a>
+
+                    </div>
                 </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/blog-3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>explore the world now, adventure awaits</h3>
+                        <a href="#" class="btn">read more</a>
+
+                    </div>
+                </div>
+
             </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/blog-2.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>explore the world now, adventure awaits</h3>
-                    <a href="#" class="btn">read more</a>
-
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/blog-3.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>explore the world now, adventure awaits</h3>
-                    <a href="#" class="btn">read more</a>
-
-                </div>
-            </div>
-
         </div>
 
     </section>
@@ -119,69 +129,168 @@
 
         <div class="box-container">
 
-            <div class="box">
-                <div class="image">
-                    <img src="images/product-1.png" alt="">
-                    <h3> mumbai </h3>
+            <!-- Card Component Added from component library FreshStyle-UI -->
+            <div class="m1 card vertical-card1-container box">
+                <div class="badge-container image">
+                    <img src="images/product-1.png" alt="Fiddle Leaf fig" class="card-img">
+                    <h3> Sale </h3>
                 </div>
-                <div class="content">
-                    <h2 class="card-title">Title</h2>
-                    <div class="price"> 290.99 <span>350.99</span> </div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+                <div class="p1 card-text-container content">
+                    <h5 class="card-header card-title">Orange</h5>
+                    <div class="card-info">Stock available</div>
+                    <div class="">
+                        <p class="card-price price">Rs. 550</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+                    </div>
                     <div class="btn-container">
-                        <a href="#" class="btn"> Buy!</a>
-                        <a href="#" class="btn-secondary"> Wishlist!</a>
+                        <button class="button btn-success">Buy Now</button>
+                        <button class="button btn-primary">Wishlist</button>
                     </div>
                 </div>
             </div>
 
-            <div class="box">
-                <div class="image">
-                    <img src="images/product-2.png" alt="">
-                    <h3> mumbai </h3>
+
+            <!-- Card Component Added from component library FreshStyle-UI -->
+            <div class="m1 card vertical-card1-container box">
+                <div class="badge-container image">
+                    <img src="images/product-2.png" alt="Fiddle Leaf fig" class="card-img">
+                    <h3> Sale </h3>
                 </div>
-                <div class="content">
-                    <h2 class="card-title">Title</h2>
-                    <div class="price"> 290.99 <span>350.99</span> </div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+                <div class="p1 card-text-container content">
+                    <h5 class="card-header card-title">Onion</h5>
+                    <div class="card-info">Stock available</div>
+                    <div class="">
+                        <p class="card-price price">Rs. 55</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+                    </div>
                     <div class="btn-container">
-                        <a href="#" class="btn"> Buy!</a>
-                        <a href="#" class="btn-secondary"> Wishlist!</a>
+                        <button class="button btn-success">Buy Now</button>
+                        <button class="button btn-primary">Wishlist</button>
                     </div>
                 </div>
             </div>
 
-            <div class="box">
-                <div class="image">
-                    <img src="images/product-4.png" alt="">
-                    <h3> mumbai </h3>
+            <!-- Card Component Added from component library FreshStyle-UI -->
+            <div class="m1 card vertical-card1-container box">
+                <div class="badge-container image">
+                    <img src="images/product-4.png" alt="Fiddle Leaf fig" class="card-img">
+                    <h3> Sale </h3>
                 </div>
-                <div class="content">
-                    <h2 class="card-title">Title</h2>
-                    <div class="price"> 290.99 <span>350.99</span> </div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+                <div class="p1 card-text-container content">
+                    <h5 class="card-header card-title">Cabbage</h5>
+                    <div class="card-info">Stock available</div>
+                    <div class="">
+                        <p class="card-price price">Rs. 55</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+                    </div>
                     <div class="btn-container">
-                        <a href="#" class="btn"> Buy!</a>
-                        <a href="#" class="btn-secondary"> Wishlist!</a>
+                        <button class="button btn-success">Buy Now</button>
+                        <button class="button btn-primary">Wishlist</button>
                     </div>
                 </div>
             </div>
 
-            <div class="box">
-                <div class="image">
-                    <img src="images/product-6.png" alt="">
-                    <h3> mumbai </h3>
+
+            <!-- Card Component Added from component library FreshStyle-UI -->
+            <div class="m1 card vertical-card1-container box">
+                <div class="badge-container image">
+                    <img src="images/product-6.png" alt="Fiddle Leaf fig" class="card-img">
+                    <h3> Sale </h3>
                 </div>
-                <div class="content">
-                    <h2 class="card-title">Title</h2>
-                    <div class="price"> 290.99 <span>350.99</span> </div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+                <div class="p1 card-text-container content">
+                    <h5 class="card-header card-title">Avocado</h5>
+                    <div class="card-info">Stock available</div>
+                    <div class="">
+                        <p class="card-price price">Rs. 55</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+                    </div>
                     <div class="btn-container">
-                        <a href="#" class="btn"> Buy!</a>
-                        <a href="#" class="btn-secondary"> Wishlist!</a>
+                        <button class="button btn-success">Buy Now</button>
+                        <button class="button btn-primary">Wishlist</button>
                     </div>
                 </div>
             </div>
+
+            <!-- Card Component Added from component library FreshStyle-UI -->
+            <div class="m1 card vertical-card1-container box">
+                <div class="badge-container image">
+                    <img src="images/product-7.png" alt="Fiddle Leaf fig" class="card-img">
+                    <h3> Sale </h3>
+                </div>
+                <div class="p1 card-text-container content">
+                    <h5 class="card-header card-title">Carrots</h5>
+                    <div class="card-info">Stock available</div>
+                    <div class="">>
+                        <p class="card-price price">Rs. 55</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="button btn-success">Buy Now</button>
+                        <button class="button btn-primary">Wishlist</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Component Added from component library FreshStyle-UI -->
+            <div class="m1 card vertical-card1-container box">
+                <div class="badge-container image">
+                    <img src="images/product-2.png" alt="Fiddle Leaf fig" class="card-img">
+                    <h3> Sale </h3>
+                </div>
+                <div class="p1 card-text-container content">
+                    <h5 class="card-header card-title">Onion</h5>
+                    <div class="card-info">Stock available</div>
+                    <div class="">
+                        <p class="card-price price">Rs. 55</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="button btn-success">Buy Now</button>
+                        <button class="button btn-primary">Wishlist</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card Component Added from component library FreshStyle-UI -->
+            <div class="m1 card vertical-card1-container box">
+                <div class="badge-container image">
+                    <img src="images/product-4.png" alt="Fiddle Leaf fig" class="card-img">
+                    <h3> Sale </h3>
+                </div>
+                <div class="p1 card-text-container content">
+                    <h5 class="card-header card-title">Cabbage</h5>
+                    <div class="card-info">Stock available</div>
+                    <div class="">
+                        <p class="card-price price">Rs. 55</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="button btn-success">Buy Now</button>
+                        <button class="button btn-primary">Wishlist</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card Component Added from component library FreshStyle-UI -->
+            <div class="m1 card vertical-card1-container box">
+                <div class="badge-container image">
+                    <img src="images/product-6.png" alt="Fiddle Leaf fig" class="card-img">
+                    <h3> Sale </h3>
+                </div>
+                <div class="p1 card-text-container content">
+                    <h5 class="card-header card-title">Avocado</h5>
+                    <div class="card-info">Stock available</div>
+                    <div class="">
+                        <p class="card-price price">Rs. 55</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="button btn-success">Buy Now</button>
+                        <button class="button btn-primary">Wishlist</button>
+                    </div>
+                </div>
+            </div>
+
 
         </div>
 

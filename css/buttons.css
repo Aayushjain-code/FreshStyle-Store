@@ -13,11 +13,17 @@
 	cursor: pointer;
 }
 .btn{
+	margin-top: 0;
+	background: var(--primary);
+}
+.btn-long{
+	padding: 1rem 13rem;
 	background: var(--primary);
 }
 
 .btn:hover {
 	background: var(--primary-dark);
+	padding: 0.8rem 2rem;
 }
 
 .btn-secondary {

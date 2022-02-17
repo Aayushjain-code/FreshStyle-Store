@@ -18,7 +18,7 @@
 
 .footer .box-container .box a {
 
-	color: var(black);
+	color: var(--text-color-1);
 }
 
 .footer .box-container .box a:hover {
