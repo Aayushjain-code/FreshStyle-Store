@@ -8,3 +8,15 @@
 @import url(./home.css);
 @import url(./media.css);
 @import url(./card.css);
+
+
+.btn-long {
+	padding: 1rem 13rem;
+	font-size: 1.5rem;
+	border-radius: .5rem;
+	background: var(--primary);
+}
+
+.btn-long:hover {
+	background: var(--primary-dark);
+}

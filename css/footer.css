@@ -1,5 +1,5 @@
 .footer {
-	background: var(--bg-color-1);
+	background: var(--bg-color-1) !important;
 }
 
 .footer .box-container .box {
