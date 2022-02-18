@@ -14,6 +14,10 @@
 	<link rel="stylesheet" href="/style.css">
 	<link rel="stylesheet" href="./products.css">
 
+	<!-- Freshstly css link  -->
+	<!-- <link rel="stylesheet" href="https://freshstyleui.netlify.app/components/card.css"> -->
+	<link rel="stylesheet" href="https://freshstyleui.netlify.app/styles.css">
+
 </head>
 
 <body>
@@ -39,7 +43,7 @@
 		<nav class="navbar">
 			<a href="/index.html">Home</a>
 			<a href="/pages/Product Page/product.html" class="active-page">Products</a>
-			<a href="/pages/Cart Page/cart.html" >Cart</a>
+			<a href="/pages/Cart Page/cart.html">Cart</a>
 			<a href="#wishlist">Wishlist</a>
 			<a href="/pages/Signup-login/login.html">Login</a>
 			<a href="/pages/Signup-login/signup.html">Signin</a>
@@ -53,16 +57,13 @@
 
 	<div class="main-container">
 		<div class="filter-container">
+
 			<h1 class="filter-heading">filter</h1>
 			<h1 class="filter-sub-heading">Price</h1>
 			<div class="filter-items">
-				<label style="font-size: 1.5rem;" >Choose a range:</label>
-				<select >
-					<option value="volvo">Veggies</option>
-					<option value="saab">fruits</option>
-					<option value="opel">Northern</option>
-					<option value="audi">Eastern</option>
-				</select>
+				<p class="component-desc">Price range slider:</p>
+				<input style="width: 50%;" type="range" min="1" max="100" value="50" class="slider" id="myRange">
+
 
 			</div>
 			<h1 class="filter-sub-heading">category</h1>
@@ -86,8 +87,11 @@
 
 			</div>
 			<h1 class="filter-sub-heading">Ratings</h1>
+
+
+
 			<div class="filter-items">
-				<input type="checkbox"  style="margin-right: 0.5rem;">
+				<input type="checkbox" style="margin-right: 0.5rem;">
 				<span class="fa fa-star checked"></span>
 				<span class="fa fa-star "></span>
 				<span class="fa fa-star "></span>
@@ -95,7 +99,7 @@
 				<span class="fa fa-star"></span>
 			</div>
 			<div class="filter-items">
-				<input type="checkbox"  style="margin-right: 0.5rem;">
+				<input type="checkbox" style="margin-right: 0.5rem;">
 				<span class="fa fa-star checked"></span>
 				<span class="fa fa-star checked"></span>
 				<span class="fa fa-star "></span>
@@ -103,7 +107,7 @@
 				<span class="fa fa-star"></span>
 			</div>
 			<div class="filter-items">
-				<input type="checkbox"  style="margin-right: 0.5rem;">
+				<input type="checkbox" style="margin-right: 0.5rem;">
 				<span class="fa fa-star checked"></span>
 				<span class="fa fa-star checked"></span>
 				<span class="fa fa-star checked"></span>
@@ -111,7 +115,7 @@
 				<span class="fa fa-star"></span>
 			</div>
 			<div class="filter-items">
-				<input type="checkbox"  style="margin-right: 0.5rem;">
+				<input type="checkbox" style="margin-right: 0.5rem;">
 				<span class="fa fa-star checked"></span>
 				<span class="fa fa-star checked"></span>
 				<span class="fa fa-star checked"></span>
@@ -119,7 +123,7 @@
 				<span class="fa fa-star"></span>
 			</div>
 			<div class="filter-items">
-				<input type="checkbox"  style="margin-right: 0.5rem;">
+				<input type="checkbox" style="margin-right: 0.5rem;">
 				<span class="fa fa-star checked"></span>
 				<span class="fa fa-star checked"></span>
 				<span class="fa fa-star checked"></span>
@@ -136,79 +140,92 @@
 
 				<div class="box-container">
 
-					<div class="box">
-						<div class="image">
-							<img src="/images/product-1.png" alt="">
-							<h3> mumbai </h3>
+					<!-- Card Component Added from component library FreshStyle-UI -->
+					<div class="m1 card vertical-card1-container box">
+						<div class="badge-container image">
+							<img src="/images/product-1.png" alt="Fiddle Leaf fig" class="card-img">
+							<h3> Sale </h3>
 						</div>
-						<div class="content">
-							<h2 class="card-title">Title</h2>
-							<div class="price"> 290.99 <span>350.99</span> </div>
-							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+						<div class="p1 card-text-container content">
+							<h5 class="card-header card-title">Orange</h5>
+							<div class="card-info">Stock available</div>
+							<div class=" ">
+								<div class="price"> 290.99 <span>350.99</span> </div>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+							</div>
 							<div class="btn-container">
-								<a href="#" class="btn"> Buy!</a>
-								<a href="#" class="btn-secondary"> Wishlist!</a>
+								<button class="button btn-success">Buy Now</button>
+								<button class="button btn-primary">Wishlist</button>
+							</div>
+						</div>
+					</div>
+					<!-- Card Component Added from component library FreshStyle-UI -->
+					<div class="m1 card vertical-card1-container box">
+						<div class="badge-container image">
+							<img src="/images/product-2.png" alt="Fiddle Leaf fig" class="card-img">
+							<h3> Sale </h3>
+						</div>
+						<div class="p1 card-text-container content">
+							<h5 class="card-header card-title">Onion</h5>
+							<div class="card-info">Stock available</div>
+							<div class="">
+								<div class="price"> 290.99 <span>350.99</span> </div>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+							</div>
+							<div class="btn-container">
+								<button class="button btn-success">Buy Now</button>
+								<button class="button btn-primary">Wishlist</button>
 							</div>
 						</div>
 					</div>
 
-					<div class="box">
-						<div class="image">
-							<img src="/images/product-2.png" alt="">
-							<h3> mumbai </h3>
+					<!-- Card Component Added from component library FreshStyle-UI -->
+					<div class="m1 card vertical-card1-container box">
+						<div class="badge-container image">
+							<img src="/images/product-4.png" alt="Fiddle Leaf fig" class="card-img">
+							<h3> Sale </h3>
 						</div>
-						<div class="content">
-							<h2 class="card-title">Title</h2>
-							<div class="price"> 290.99 <span>350.99</span> </div>
-							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+						<div class="p1 card-text-container content">
+							<h5 class="card-header card-title">Cabbage</h5>
+							<div class="card-info">Stock available</div>
+							<div class="">
+								<div class="price"> 290.99 <span>350.99</span> </div>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+							</div>
 							<div class="btn-container">
-								<a href="#" class="btn"> Buy!</a>
-								<a href="#" class="btn-secondary"> Wishlist!</a>
+								<button class="button btn-success">Buy Now</button>
+								<button class="button btn-primary">Wishlist</button>
 							</div>
 						</div>
 					</div>
 
-					<div class="box">
-						<div class="image">
-							<img src="/images/product-4.png" alt="">
-							<h3> mumbai </h3>
+
+					<!-- Card Component Added from component library FreshStyle-UI -->
+					<div class="m1 card vertical-card1-container box">
+						<div class="badge-container image">
+							<img src="/images/product-6.png" alt="Fiddle Leaf fig" class="card-img">
+							<h3> Sale </h3>
 						</div>
-						<div class="content">
-							<h2 class="card-title">Title</h2>
-							<div class="price"> 290.99 <span>350.99</span> </div>
-							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+						<div class="p1 card-text-container content">
+							<h5 class="card-header card-title">Avocado</h5>
+							<div class="card-info">Stock available</div>
+							<div class="">
+								<div class="price"> 290.99 <span>350.99</span> </div>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+							</div>
 							<div class="btn-container">
-								<a href="#" class="btn"> Buy!</a>
-								<a href="#" class="btn-secondary"> Wishlist!</a>
+								<button class="button btn-success">Buy Now</button>
+								<button class="button btn-primary">Wishlist</button>
 							</div>
 						</div>
 					</div>
 
-					<div class="box">
-						<div class="image">
-							<img src="/images/product-6.png" alt="">
-							<h3> mumbai </h3>
-						</div>
-						<div class="content">
-							<h2 class="card-title">Title</h2>
-							<div class="price"> 290.99 <span>350.99</span> </div>
-							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
-							<div class="btn-container">
-								<a href="#" class="btn"> Buy!</a>
-								<a href="#" class="btn-secondary"> Wishlist!</a>
-							</div>
-						</div>
-					</div>
+
 				</div>
 			</section>
 			<!-- cards section ends -->
 		</div>
 	</div>
-
-
-
-
-
 
 
 

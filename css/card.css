@@ -37,15 +37,14 @@
 	left: 2.5rem;
 	font-size: 2rem;
 	color: #fff;
-	background: rgb(255, 230, 0);
+	background: rgb(0, 255, 76);
 	border-radius: .5rem;
 	font-weight: lighter;
 	padding: .5rem 1.5rem;
 }
 
 .cards .box-container .box .image h3 i {
-	color: var(--primary);
-}
+	color: var(--primary);}
 
 .cards .box-container .box .content {
 	padding: 1.5rem;
