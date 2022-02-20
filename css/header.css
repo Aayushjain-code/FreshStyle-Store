@@ -116,18 +116,7 @@
 }
 
 
-.header .login-form {
-	position: absolute;
-	top: 115%;
-	right: 7%;
-	background: var(--bg-color-1);
-	border-radius: .5rem;
-	box-shadow: var(--box-shadow);
-	width: 35rem;
-	padding: 2rem;
-	transform: scale(0);
-	transform-origin: top right;
-}
+
 
 .header .login-form.active {
 	transform: scale(1);
