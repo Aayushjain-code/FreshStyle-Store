@@ -6,7 +6,7 @@
 FreshStyle-Store is  Freshness store for vegitable and fruits.
 
 ## Preview
-Live link:https://zen-tesla-cee31e.netlify.app/
+Live link:https://freshstylestore.netlify.app/
 
 ### Tech Stack
 HTML,CSS, JAVASCRIPT
