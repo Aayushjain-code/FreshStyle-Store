@@ -1,5 +1,5 @@
 
-
+<img src="https://github.com/Aayushjain-code/FreshStyle-Store/blob/main/ecomm.png">
 # FreshStyle-Store
 
 ## About
