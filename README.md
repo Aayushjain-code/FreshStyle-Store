@@ -1,6 +1,10 @@
 
 <img src="https://github.com/Aayushjain-code/FreshStyle-Store/blob/main/ecomm.png">
 
+
+https://user-images.githubusercontent.com/75216351/155000473-2e2c84e7-4733-4631-bbd4-dab989384dff.mp4
+
+
 # FreshStyle-Store
 
 ## About
